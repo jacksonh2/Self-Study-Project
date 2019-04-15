@@ -7,22 +7,33 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+###Framework
+**Criteria** | **Description**
+------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
+>**Clarity** | >Is the charting form appropriate? Are titles appropriate? Are the units of the data familiar to the intended audience? Does the visualization anticipate the questions it raises?
+>**Focus** | >Does the language used in the visualization support at least one specific idea? Do design choices such as colors, typography or highlighted areas support at least one specific idea? In more complicated visualizations, is it clear that some parts of the information are more important than other parts?
+>**Compelling** | >Will your audience want to talk about or act upon this data? Does the richness of the data justify a visualization? Would incorporating photography or annotations make the data more relatable?
 
-```{r cars}
-summary(cars)
-```
+Based on the framework given in the paper, I further divided the three main review criterias into categories below:
+<li>**Simplicity of the visualization**
+<li>**Proper selection of chart form and text appropriateness**
+<li>**Clear message/idea in the visualization**
+<li>**Visualization Hierarchy (information importantness)**
+<li>**Compellingness of the visualization**
 
-## Including Plots
+I will then utilize these 5 categories of visualization to analyze and critique the 5 graphs that I have found related to climate change and human activity.
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+###Graph Analysis
+
+##Graph #1
+![See for Yourself- What's warming the world](https://github.com/jacksonh2/Self-Study-Project/blob/master/what's-warming-the-world.jpg)
+
+##Graph #2
+![Separating Humand and Natural Influences on Climate](https://github.com/jacksonh2/Self-Study-Project/blob/master/models-observed-human-natural.png)
+
+
+
