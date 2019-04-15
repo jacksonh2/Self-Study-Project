@@ -44,7 +44,7 @@ This visualization definitely meets the simplicity criteria of the framework; th
 In terms of the second graph, the charting form is still appropriate, utilizing a line to connect all the observed data points, and instead of using the fitted lines for the natrual factor and human factor, this graph decided to employ shades to convey the general trend/pattern of natrual factor only and natural and human factors combined. The title of the graph can be slightly misleading, because in the graph, natural and human factors are introduced as an combined effect rather than one for natrual and one for human, instead its natural factor only and the combined factor. The graph illustrates that approximately in the 1970s the human factor drives up the global temperature change and it diviates from the natural factor only shades. This use of highlighted area support the main idea that human factors are the driving up the global temperature change fluctuation, where the natural factor alone isn't really causing an effect. The visualization delivers in terms of compelling, as it shows the large contrast of global temperature increase with and without the human factor, really highlighting the fact that human factors are the major contributor to global temperature increase. Overall a great visualization, one addition that could make the graph better would probably introduce a caption on the side perhaps explaining what happened from the 1970s and onwards that caused the dramatic increase in temperature that were caused by human factors, and then people would perhaps act upon it and cut down the CO2 emission etc.
 
 ###Graph 3
-![skeptical science human factor vs natural factor](skeptical science factors that contributed to climate change.png)
+![skeptical science human factor vs natural factor](https://github.com/jacksonh2/Self-Study-Project/blob/master/skeptical%20science%20factors%20that%20contributed%20to%20climate%20change.png)
 [reference_link](https://skepticalscience.com/a-comprehensive-review-of-the-causes-of-global-warming.html)
 
 ####Evaluation
@@ -61,7 +61,7 @@ The graph is compelling through the drastic contrast that all six studies show b
 In terms of simplicity and clarity, this graph has done a pretty good job at it, showing the clear legend on the top of the graph, and the graph itself isn't too hard to read and understand. The graph introduces one line for natrual factor, one line for human factor, and one line for all factors, and the dots are the observed data points. Neither the x or the y axis were labelled, and while it might be easy to come up with the labels ourselves, the y axis could have been temperature or temperature change,if the graph was able to include the labels, it would have improved the clarity of the visualization by a lot. The color coding is well used in this graph, where the color red is typically used for danger, is used for the human factor line, further enforcing the image that human factors are putting the earth at danger with its emissions. Again, the message that the graph is trying to convey is clear and it's compelling that human factors are the driving force of the temperature increase globally. Similar to graph 2, if the visualization could have highlighted the number 1 aspect of the human factor that's driving the temperature up, it would have motiviated people to cut back the emission of that particular type. 
 
 ###Graph 5
-![co2 emission has nothing to do with temperature increase](co2 emission and temperature change.jpg)
+![co2 emission has nothing to do with temperature increase](https://github.com/jacksonh2/Self-Study-Project/blob/master/co2%20emission%20and%20temperature%20change.jpg)
 [reference_link](https://skepticalscience.com/humlum-at-it-again.html)
 
 ####Evaluation
@@ -76,4 +76,4 @@ All in all, I would say that the first visualization is definitely by far the be
 This is a replication of Ed Hawkins's warming stripes using tableau
 
 
-![warming stripe replication](warming stripe replication.jpg)
+![warming stripe replication](https://github.com/jacksonh2/Self-Study-Project/blob/master/warming%20stripe%20replication.jpg)
