@@ -52,12 +52,14 @@ This visualization is shows 6 different studies on climate change, and the human
 This graph is troublesome to understand at the first glance. The color coding doesn't really reflect any meaning, and the legend doesn't clarify what each colored bar represents. Without reading the entire website, you won't be able to understand what each study is about and how it came up with this graph. The chart selection and the title is appropriate, but the units can be misleading, as usually the contributions from different factor should add up to 100% but in this graph's case many exceeds 100% and provided no explicit explanation on why it happened.
 The idea that the graph is trying to convey is clear, that human factors overwhelming outpowers the natrual factors.
 The graph is compelling through the drastic contrast that all six studies show between the percentage contribution between human factor and natural factor.
+
 ###Graph 4
 ![global warming due to men](global_warming_due_to_men.jpg)
 [reference_link](https://www.carbonbrief.org/analysis-why-scientists-think-100-of-global-warming-is-due-to-humans)
 
 ####Evaluation
 In terms of simplicity and clarity, this graph has done a pretty good job at it, showing the clear legend on the top of the graph, and the graph itself isn't too hard to read and understand. The graph introduces one line for natrual factor, one line for human factor, and one line for all factors, and the dots are the observed data points. Neither the x or the y axis were labelled, and while it might be easy to come up with the labels ourselves, the y axis could have been temperature or temperature change,if the graph was able to include the labels, it would have improved the clarity of the visualization by a lot. The color coding is well used in this graph, where the color red is typically used for danger, is used for the human factor line, further enforcing the image that human factors are putting the earth at danger with its emissions. Again, the message that the graph is trying to convey is clear and it's compelling that human factors are the driving force of the temperature increase globally. Similar to graph 2, if the visualization could have highlighted the number 1 aspect of the human factor that's driving the temperature up, it would have motiviated people to cut back the emission of that particular type. 
+
 ###Graph 5
 ![co2 emission has nothing to do with temperature increase](co2 emission and temperature change.jpg)
 [reference_link](https://skepticalscience.com/humlum-at-it-again.html)
@@ -72,5 +74,6 @@ All in all, I would say that the first visualization is definitely by far the be
 
 
 This is a replication of Ed Hawkins's warming stripes using tableau
+
 
 ![warming stripe replication](warming stripe replication.jpg)
