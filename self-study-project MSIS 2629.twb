@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0321.1733                               -->
+<workbook original-version='18.1' source-build='2019.1.2 (20191.19.0321.1733)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='HadCRUT.4.6.0.0.annual_ns_avg.1' inline='true' name='federated.1wmf7jb1a4ipvi1562a3407xvlqs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HadCRUT.4.6.0.0.annual_ns_avg.1' name='textscan.1raobni01y7ea91gan2c21b3j7u9'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='/Users/hubin/Downloads/HadCRUT.4.6.0.0.annual_ns_avg_realisations/HadCRUT.4.6.0.0.annual_ns_avg.1.txt' dataRefreshTime='' directory='/Users/hubin/Downloads/HadCRUT.4.6.0.0.annual_ns_avg_realisations' filename='/var/folders/t0/_dc9rctn18vcvm8fz9jdhrg00000gn/T/tableau-temp/0fpqqul19uvqxv14tz8w00593fv7/HadCRUT.4.6.0.0.annual_ns_avg.1.txt.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[F2]' />
+            <value name='[F3]' />
+            <value name='[F4]' />
+            <value name='[F5]' />
+            <value name='[F6]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[HadCRUT.4.6.0.0.annual_ns_avg.1.txt].[F2]' />
+              <field name='[HadCRUT.4.6.0.0.annual_ns_avg.1.txt].[F3]' />
+              <field name='[HadCRUT.4.6.0.0.annual_ns_avg.1.txt].[F4]' />
+              <field name='[HadCRUT.4.6.0.0.annual_ns_avg.1.txt].[F5]' />
+              <field name='[HadCRUT.4.6.0.0.annual_ns_avg.1.txt].[F6]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1raobni01y7ea91gan2c21b3j7u9' name='HadCRUT.4.6.0.0.annual_ns_avg.1.txt' table='[HadCRUT.4.6.0.0.annual_ns_avg.1#txt]' type='table'>
+            <columns character-set='UTF-8' header='no' locale='en_US' separator=' '>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='real' name='F2' ordinal='1' />
+              <column datatype='real' name='F3' ordinal='2' />
+              <column datatype='real' name='F4' ordinal='3' />
+              <column datatype='real' name='F5' ordinal='4' />
+              <column datatype='real' name='F6' ordinal='5' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.1.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.1.txt]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='Year' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.500994' measure-ordering='alphabetic' measure-percentage='0.499006' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>1850-2017 annual climate stripes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HadCRUT.4.6.0.0.annual_ns_avg.1' name='federated.1wmf7jb1a4ipvi1562a3407xvlqs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wmf7jb1a4ipvi1562a3407xvlqs'>
+            <column aggregation='Sum' caption='Year' datatype='integer' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Avg' name='[avg:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.0' field='[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[avg:Pivot Field Values:qk]' max='0.19900000000000001' min='-0.0848' palette='red_blue_diverging_10_0' reverse='true' symmetric='false' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[avg:Pivot Field Values:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='size' value='1.9890055656433105' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:F1:ok]</cols>
+      </table>
+      <simple-id uuid='{9C662AA0-C212-43A8-8EE3-92B459CE8F8E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[avg:Pivot Field Values:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[avg:Pivot Field Values:qk]</field>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:Calculation_2186497667362840576:qk]</field>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:Calculation_2186497667371339777:qk]</field>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:F1:ok]</field>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:F1:qk]</field>
+            <field>[federated.1wmf7jb1a4ipvi1562a3407xvlqs].[none:Pivot Field Values:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2CA5C347-F9BB-4CD9-8A84-77BF8304E826}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAR3klEQVR4nO3dS4wcd53A8V8/5mWPxx6PHSdxljzI5rK3LOKw5xXaSw5IsCckInGHi7kE
+      RUhAAEVAEqRESJZ84HUAcQhCSMAho8SQh0OexJB3sBMnHs94PD2Pflftodvdk2hZeYZEXuX3
+      +UiJ7HT/+19dXV3fSVVpqlKWZRkApFO92gsAwNUhAABJCQBAUgIAkJQAACQlAABJCQBAUgIA
+      kJQAACQlAABJCQDwkfn5z38e99xzT/R6vYiI+OMf/xhf/epXw2+g+f9BAICPzKc+9an4/e9/
+      H0899VT0er148MEH49Zbb41KpRL9fj/efvvtWFpaGj2/LMtYXV2Nc+fORbfbjYiIbrcbrVYr
+      +v1+rK+vi8eHqH61FwD4+Lr11lvjjjvuiOPHj8f58+dja2srPve5z0Wz2Yx77rknnn/++ej3
+      +3HnnXfG5z//+bj//vvjkUceiaIo4vDhw3HffffFI488Eo899ljUarVYWlqK48ePx+Tk5NV+
+      ax8L/g8A+MhUq9X44he/GO+8807cd9998YUvfCEWFhbiz3/+c/zpT3+KEydOxFe+8pX46U9/
+      Go1GIz7zmc/EAw88EN/+9rfj7Nmz8eKLL0a73Y6TJ09Gq9WKL3/5y1Gv+7n1w2JNAh+pw4cP
+      x2c/+9n47W9/G3fccUdERJw5cyaazWZ885vfjHa7HZubm7GxsRGnTp2Khx9+OKanp6PZbEa7
+      3Y6Iwf9JfOc734nZ2dmr+VY+dgQA+MgdOXIk5ufnY2JiIiIi5ufno16vx5e+9KWYnp6O1dXV
+      mJycjOPHj8e9994bt99+e9x5552j8YcPH449e/ZcpaX/+BIA4CNXqVSiWh0fcf70pz8dN954
+      Y3zrW9+KQ4cOxerqavzgBz+Ia6+9Nh566KGoVCpx9uzZqFQqo3/48FXcEQz4qK2srMTy8nLc
+      dttto535pUuX4vTp09Hr9eLmm2+Oo0ePxtmzZ+Mvf/lL3HzzzRERcf3110ev14u1tbW45ZZb
+      hOBDJgAASbkKCCApAQBISgAAkhIAgKQEACApAQBISgAAkhIAgKQEACApAQBISgAAkhIAgKR2
+      FYCyLOPZZ5+NN954Y0fjLly4ECdPnhzdIHo387700kvx17/+dUfjGo1GLC4ujm4usRuvvvpq
+      PP/88zu6H2m73Y7FxcVoNBq7nvfMmTPx9NNPR7/fv+Ix/X4/Hn300VheXt71vO+99148/vjj
+      O/qsiqKIU6dOje7leqVjnn766Xjrrbd2sZQDGxsbsbi4GM1m84rHlGUZL7zwQrzyyiu7nrfT
+      6cTi4mKsra3taNzLL78cL7744q7vbdvv9+PkyZPvu5fulXjzzTfjmWeeiaIodjVvURTx1FNP
+      xdmzZ3c07ty5c/Hkk0/uaBverizLeO655+L111/f0biVlZV47LHHdrQ9fnDe06dPx+nTp3c0
+      bn19PRYXF6PVau1q3oiI1157LZ577rkdbSO72R53FYCiKOLBBx+MX/3qVzsad/r06fja174W
+      q6uru5k2IiJ+/OMfx4kTJ3Y05u23345jx47F+fPndz3vww8/HD/84Q93tBE3Go04duzYP7WT
+      WVxcjO9+97s72pi63W7cddddcerUqV3P++yzz8bXv/71HcWr3+/H97///R19vkVRxAMPPBC/
+      /vWvd7OYERHx7rvvxrFjx+LcuXNXPKYsyzhx4kT85Cc/2fW8W1tbcezYsR3vIH75y1/GQw89
+      tOsA9Hq9uPvuu+OJJ57Y0bg//OEP8b3vfS86nc6u5u33+3HvvffG7373ux2Ne/LJJ+Mb3/hG
+      bGxs7GreoijiRz/6UfziF7/Y0bi//e1vcdddd/1T+5uf/exncfz48R2N2c32+EG/+c1v4v77
+      79/RD2Cbm5tx7NixHf2AvKtfB12WZayurka9Xo+5ubkrHtdut+PSpUtx6NChqNVqO502yrKM
+      tbW1KMsy5ufnr3hct9uNlZWVOHTo0K7vJ7q+vh6dTicOHjx4xb+TvCiKWFpaioMHD+76Jtab
+      m5vRbDbj4MGD77uhxv+lLMtYWlqKubm5mJmZ2dW8rVYrGo1GHDp0aEfzrqysxPz8/BV/vmVZ
+      xsWLF2NycjL27du3q2Xt9XqxvLwcCwsLoztOXcm8ly5dikqlEgcOHNjVvJc/3/n5+Ziamrri
+      cY1GI3q9XszPz+/q99uXZRkXLlyI2dnZHd0la2NjI1qtViwsLOx63pWVlZient7RrRmbzWZs
+      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
+      AgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUA
+      AEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQ
+      lAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJ
+      AEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAA
+      JCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBS
+      AgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUA
+      AEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQ
+      lAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJ
+      AEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAA
+      JCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBS
+      AgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUA
+      AEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQ
+      lAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJ
+      AEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAA
+      JCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBS
+      AgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUA
+      AEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQ
+      lAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJ
+      AEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAA
+      JCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBS
+      AgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUA
+      AEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQlAAAJCUAAEkJAEBSAgCQ1P8A2+Fwtf4REdIAAAAA
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
