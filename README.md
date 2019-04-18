@@ -15,9 +15,13 @@ Jacqueline Strecker(2012): Data Visualization in Review;  (https://idl-bnc-idrc.
 >Compelling | Will your audience want to talk about or act upon this data? Does the richness of the data justify a visualization? Would incorporating photography or annotations make the data more relatable?
 
 Based on the framework given in the paper, I further divided the three main review criterias into categories below:
+
 **Simplicity of the visualization**
+
 **Proper selection of chart form and text appropriateness**
+
 **Clear message/idea in the visualization**
+
 **Compellingness of the visualization**
 
 I will then utilize these 5 categories of visualization and the 3 framework provided from the literature paper to analyze and critique the 5 graphs that I have found related to climate change and human activity.
